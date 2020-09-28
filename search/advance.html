@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Advance Search</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css">
+		
+	</head>
+
+	<body>
+
+		<div id="header" >
+
+			<img src="Google-Logo-PNG-Free-Image.png" alt="Google Logo", class="image_ad">
+			
+			<div style="float:right">
+			<a class="rc" href="index.html"> Google Search </a>
+			<a class="rc" href="image.html" > Google Image </a>
+		<!-- i wonder how do i put these two links on the very right upper corner instead of below the grey header?-->
+
+		</div>
+
+		<h1>Advance Search</h1>
+			
+		<div class=“container3”>
+			<form action="https://google.com/search" method="GET" name="f">
+				<label class="ad_text">Find Page with</label>
+
+				
+				<p class="form">all these words:</p>
+				<input type="text" name="as_q" value placeholder="all these words" class="textinput" style="width:500px"> 
+				<p class="form">Type the important words:  tri-colour rat terrier</p>
+
+				<!-- it doesnt seem to work if I put the width parameter as style under 'textinput' in the css file, could you please help me explain?-->
+
+				<!-- from my understanding, it seems, through going over google's own html, that they use <div> to create layout and then base on that again use <div> to fill in content, such as link, form and etc. Am I correct? Because I want to spend more time working on the layout later, as you can see, it is very bad atm. but I do need to understand the mechanism behind the html if you are kind enough to help me with my confusion.-->
+
+
+				<br>
+
+				<p class="form">this exact word of phrase:</p>
+				<input type="text" name="as_epq" value placeholder="this exact word of phrase" class="textinput" style="width:500px">
+				<p class="form">Put exact words in quotes:  "rat terrier"</p>
+				
+				<br>
+
+		
+				<p class="form">any of these words:</p>
+				<input type="text" name="as_oq" value placeholder="all these words" class="textinput" style="width:500px">
+				<p class="form">Type OR between all the words you want:  miniature OR standard</p>
+				<br>
+				
+				<p class="form">none of these words:</p>
+				<input type="text" name="as_eq" value placeholder="all these words" class="textinput" style="width:500px"> 
+				<p class="form">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</p>
+				<br>
+			
+				<div style="text-align: center; padding: 20px">
+				<input class="ad_s_button" type="submit" value="Advance Search">
+				</div>
+			</form>
+
+		</div>
+
+		
+		
+
+	</body>
+
+</html>

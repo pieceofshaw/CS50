@@ -1,0 +1,158 @@
+	
+		.rc {
+		font-family: arial;
+		font-size: 12px;
+		text-align:right;
+		}
+		
+		a: link {
+		color: rgb(20,20,20);
+		}
+
+		a:hover, btn:hover {
+		color: rgb(50,50,50);
+		}
+		
+		.image {
+ 		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 300px;
+		}
+
+		.container {
+  		position: relative;
+		text-align: center;
+		}
+
+		.container2 {
+		position: relative;
+		text-align: center;
+		}
+
+		.container3 {
+		position: absolute;
+		padding: 20px;
+		display:inline-block;
+		min-width: 100px;
+		}
+		
+		#text-block {
+ 		position: relative;
+  		bottom: 80px;
+  		left: 80px;
+  		color: blue;
+		font-size: 16px;
+		}
+
+		.input_text {
+		position: relative;
+		display: inline;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0px 10px 0px 25px;
+		border:1px solid rgb(200,200,200);
+		border-radius: 10px;
+		height: 100px;
+		width: 500px;
+		background: url(outline_search_black_18dp.png) no-repeat scroll 3px 3px;
+		}
+
+		/* it worked previously, i wonder why the height and width doesnt work for input? */
+		
+		input[type="text"] {
+    	width: 200px;
+    	height: 20px;
+    	padding-right: 50px;
+		}
+
+		.input-icons { 
+        width: 100%; 
+       	margin-bottom: 10px; 
+        }
+ 
+		.input_submit {
+		display: inline-block;
+		margin-left: 5px;
+		margin-right: 5px;
+		margin-top: 50px;
+		padding:5px;
+		border:2px white;
+		border-radius: 3px;
+		width:120px;
+		height:25px;
+		background-color: rgb(245,245,245);
+		font-size: 12px;
+		color: rgb(20,20,20)
+		}
+
+		.btn {
+		display:inline;
+		margin-left:15px
+		margin-right:15px
+		padding: 10px 10px;
+		background: url(outline_search_black_18dp.png) no-repeat scroll 10px 10px;
+		color: blue
+		}
+
+		.image_ad {
+ 			display: block;
+			width: 80px;
+			}
+
+ 		h1 {
+			color: red;
+			font-family: Arial;
+			font-size: 18px;
+			padding: 30px;
+			}
+
+		#header {
+			display: block;
+			background-color: rgb(235,235,235);
+			height:40px;
+			}
+
+		.ad_s_button {
+			user-select:none;
+			line-height:100%;
+			height:20px;
+			min-width:150px;
+			border: 1px;
+			border-radius: 2px;
+			cursor: default;
+			font-size: 11px;
+			font-weight: bold;
+			text-align: center;
+			white-space: nowrap;
+			position: fixed;
+			}
+
+		.ad_text {
+			display:block;
+			height: 30px;
+			display: table-cell;
+			padding-left:50px;
+			font-size: 18x;
+			}
+
+		.form {
+			padding-left: 50px;
+			padding-top: 10px;
+			display: inline-block;
+			min-width: 200px;
+			font-size: 12px;
+			}
+
+		.textinput {
+			display:inline-block;
+			margin-left: 50px;
+			border-radius: 1px;
+			border: 1px solid #d9d9d9;
+			border-top: 1px solid #c0c0c0;
+			font-size: 12px;
+			height: 50px;
+			padding: 5px 5px;
+			}
+		
